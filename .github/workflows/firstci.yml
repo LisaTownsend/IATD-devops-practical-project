@@ -4,6 +4,5 @@ jobs:
   Lisajob:
     runs-on: ubuntu-latest
     steps:
-      name: lisastep
       uses: actions/checkout@v4
       run: echo "Hi from Lisa"
