@@ -1,6 +1,6 @@
 name: Lisaworkflow
 on: push
-job: 
+jobs: 
   Lisajob:
     runs-on: ubuntu-latest
     steps:
