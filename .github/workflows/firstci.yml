@@ -1,8 +1,8 @@
 name: Lisaworkflow
-on: push
+on: [push]
 jobs: 
   Lisajob:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v4
-      run: echo "Hi from Lisa"
+      - uses: actions/checkout@v4
+      - run: echo "Hi from Lisa"
