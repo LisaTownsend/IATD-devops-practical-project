@@ -18,7 +18,10 @@ test("wrapString: wrap complex sentence", () => {
 
 // Test for the wrong amount of "date segments" (see comments in utilities.js for more info)
 
-// Test for wrong number of digits in the day
+// Test for invalid date
+test("invalid date", () => {
+    expect(isValidDateString("25/02/2025")).toBe(true);
+});
 
 // Test for wrong number of digits in the month
 
