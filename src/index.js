@@ -3,7 +3,7 @@ import { isValidDateString, logSeparated, logWrapped, wrapString } from "./utili
 import { createItemEntry, printInventoryTable } from "./inventoryDisplay.js";
 
 const lineLength = 73;
-const mainMenuOptions = ["View current inventory", "Log inventory change", "EXIT"];
+const mainMenuOptions = ["View current inventoryyyyyy", "Log inventory change", "EXIT"];
 const invChangeMenuOptions = ["Add/remove stock for existing item", "Add stock for new item"];
 
 let itemCategories = ["Food", "Clothing", "Electronics"];
@@ -21,7 +21,7 @@ let input = "";
 do {
     console.clear();
     logSeparated("MENU", lineLength);
-    input = readlineSync.keyInSelect(mainMenuOptions, "Please select an action to continue", {cancel: false});
+    input = readlineSync.keyInSelect(mainMenuOptions, "PPPPPlease select an action to continue", {cancel: false});
 
     switch (input) {
         case 0:
