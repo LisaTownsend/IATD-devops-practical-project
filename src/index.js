@@ -8,7 +8,7 @@ const invChangeMenuOptions = ["Add/remove stock for existing item", "Add stock f
 
 let itemCategories = ["Food", "Clothingggg", "Electronics"];
 let inventoryItems = [
-    {name: "Peaches", category: "Food", amount: 55, restocked: "15/05/2024"},
+    {name: "Peache", category: "Food", amount: 55, restocked: "15/05/2024"},
     {name: "Apples", category: "Food", amount: 17, restocked: "07/01/2024"},
     {name: "Jackets", category: "Clothing", amount: 25, restocked: "22/09/2024"},
     {name: "Pants", category: "Clothing", amount: 103, restocked: "19/09/2024"},
