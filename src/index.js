@@ -3,7 +3,7 @@ import { isValidDateString, logSeparated, logWrapped, wrapString } from "./utili
 import { createItemEntry, printInventoryTable } from "./inventoryDisplay.js";
 
 const lineLength = 73;
-const mainMenuOptions = ["View current inventoryyyyyy", "Log inventory change", "EXIT"];
+const mainMenuOptions = ["vView current inventoryyyyyy", "Log inventory change", "EXIT"];
 const invChangeMenuOptions = ["Add/remove stock for existing item", "Add stock for new item"];
 
 let itemCategories = ["Food", "Clothingggg", "Electronics"];
