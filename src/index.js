@@ -6,7 +6,7 @@ const lineLength = 73;
 const mainMenuOptions = ["View current inventoryyyyyy", "Log inventory change", "EXIT"];
 const invChangeMenuOptions = ["Add/remove stock for existing item", "Add stock for new item"];
 
-let itemCategories = ["Food", "Clothinggg", "Electronics"];
+let itemCategories = ["Food", "Clothingggg", "Electronics"];
 let inventoryItems = [
     {name: "Peaches", category: "Food", amount: 55, restocked: "15/05/2024"},
     {name: "Apples", category: "Food", amount: 17, restocked: "07/01/2024"},
